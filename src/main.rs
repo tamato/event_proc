@@ -64,7 +64,7 @@ where
     T: BaseComponent,
 {
     fn printme(&self) {
-        println!("Abs + Base Comp");
+        self.show();
     }
 }
 
